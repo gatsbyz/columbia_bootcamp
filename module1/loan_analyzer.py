@@ -191,7 +191,7 @@ Output this list of inexpensive loans to a csv file
 """
 
 # Set the output header
-header = ["loan_price", "remaining_months", "repayment_interval", "future_value"]
+headers = ["loan_price", "remaining_months", "repayment_interval", "future_value"]
 
 # Set the output file path
 output_path = Path("inexpensive_loans.csv")
@@ -199,3 +199,12 @@ output_path = Path("inexpensive_loans.csv")
 # @TODO: Use the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 # YOUR CODE HERE!
+import csv
+with open('loans.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow(headers)
+    for loan in loans:
+        row = []
+        for header in headers:
+            row.append(loan.get(header))
+        writer.writerow(row)
