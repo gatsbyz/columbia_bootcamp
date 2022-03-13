@@ -200,10 +200,10 @@ output_path = Path("inexpensive_loans.csv")
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 # YOUR CODE HERE!
 import csv
-with open('loans.csv', 'w', newline='') as csvfile:
+with open(output_path, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(headers)
-    for loan in loans:
+    for loan in inexpensive_loans:
         row = []
         for header in headers:
             row.append(loan.get(header))
