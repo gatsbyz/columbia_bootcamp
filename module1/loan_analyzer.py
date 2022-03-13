@@ -17,19 +17,22 @@ loan_costs = [500, 600, 200, 1000, 450]
 # How many loans are in the list?
 # @TODO: Use the `len` function to calculate the total number of loans in the list.
 # Print the number of loans from the list
-print(f"loan_costs length {len(loan_costs)}")
+number_of_loans = len(loan_costs)
+print(f"the number of loans  {number_of_loans}")
 
 # What is the total of all loans?
 # @TODO: Use the `sum` function to calculate the total of all loans in the list.
 # Print the total value of the loans
 # YOUR CODE HERE!
-print(f"loan_costs sum {sum(loan_costs)}")
+total_value_of_loans = sum(loan_costs)
+print(f"the total value of the loans {total_value_of_loans}")
 
 # What is the average loan amount from the list?
 # @TODO: Using the sum of all loans and the total number of loans, calculate the average loan price.
 # Print the average loan amount
 # YOUR CODE HERE!
-print(f"loan_costs avg {sum(loan_costs)/len(loan_costs)}")
+average_loan_amount = sum(loan_costs)/len(loan_costs)
+print(f"the average loan amount {average_loan_amount}")
 
 """Part 2: Analyze Loan Data.
 
@@ -65,8 +68,9 @@ loan = {
 # @TODO: Use get() on the dictionary of additional information to extract the Future Value and Remaining Months on the loan.
 # Print each variable.
 # YOUR CODE HERE!
-print(f"Future Value {loan.get('future_value')}")
-print(f"Remaining Months {loan.get('remaining_months')}")
+future_value = loan.get('future_value')
+remaining_months = loan.get('remaining_months')
+print(f"Future Value {future_value}\nRemaining Months {remaining_months}")
 
 # @TODO: Use the formula for Present Value to calculate a "fair value" of the loan.
 # Use a minimum required return of 20% as the discount rate.
@@ -204,7 +208,4 @@ with open(output_path, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(headers)
     for loan in inexpensive_loans:
-        row = []
-        for header in headers:
-            row.append(loan.get(header))
-        writer.writerow(row)
+        writer.writerow(loan.values())
