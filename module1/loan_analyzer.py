@@ -203,8 +203,7 @@ output_path = Path("inexpensive_loans.csv")
 # @TODO: Use the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 # YOUR CODE HERE!
-import csv
-with open(output_path, 'w', newline='') as csvfile:
+with open(Path.cwd() / output_path, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(headers)
     for loan in inexpensive_loans:
