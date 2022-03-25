@@ -28,6 +28,14 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 
 csvpath = ''
 
+def save_csv(output_name, data, header):
+    with open(Path.cwd() / output_name, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        if header:
+            writer.writerow(header)
+        for element in data:
+            writer.writerow(element)
+
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
 
@@ -35,8 +43,7 @@ def load_bank_data():
         The bank data from the data rate sheet CSV file.
     """
     global csvpath
-    print(123, Path.cwd())
-    csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
+    csvpath = questionary.path("Enter a file path to a rate-sheet (.csv):").ask()
     csvpath = Path(csvpath)
     if not csvpath.exists():
         sys.exit(f"Oops! Can't find this path: {csvpath}")
@@ -115,13 +122,12 @@ def save_qualifying_loans(qualifying_loans):
     """
 
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    with open(Path.cwd() / 'qualifying_loans', 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        print('csvpath', csvpath)
-        writer.writerow(get_header(csvpath))
-        for qualifying_loan in qualifying_loans:
-            writer.writerow(qualifying_loan)
-
+    save = questionary.confirm("Do you want to save your qualifying loans? (y/n): ").ask()
+    if save:
+        output_path = questionary.path("Enter a file path to the new file (.csv):").ask()
+        save_csv(output_path, qualifying_loans, get_header(csvpath))
+    else:
+        print('did not save qualifying loans')
 
 def run():
     """The main function for running the script."""

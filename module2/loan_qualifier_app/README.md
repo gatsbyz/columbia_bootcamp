@@ -1,33 +1,54 @@
 # Project Title
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+<h3>Module1</h3>
+Script that analyzes loan with basic python.
+Automate the calculations for the loan portfolio summaries.
+
+<h3>Module2</h3>
+This software can prompt the user to save the qualifying loans as a new CSV file.
+
+The primary application file, `app.py`
+A `data` folder that contains the CSV file your application uses
+A `qualifier` folder that contains all of the functions imported into the main app, organized into two subfolders:
+* `filters`, which includes .py files for all of your filter functions
+* `utils`, which includes your financial calculator module and your fileio module
+
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+install python 3
+install pip
+install conda
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+N/A
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+Module1: Run /module1/loan_analyzer.py
+Module2: Run module2/app.py file
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Jesse Lee / Twitter @walkgatsby
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+No license
+
+Documentation included that contains all or most sections from the README.md template. (10 points)
+
+Clear and concise documentation updated to reflect the current state of the project and its features. (5 points)
+
+Rich documentation content included, such as example usage screenshots and code blocks that demonstrate the application. (5 points)

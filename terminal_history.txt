@@ -1,0 +1,1070 @@
+   50  cd ..
+   51  ls
+   52  chmod 600 Titan.pem
+   53  ls
+   54  cd .ssh
+   55  open .
+   56  open setup.sh
+   57  zsh ./setup.sh
+   58  zsh ./setup.sh
+   59  zsh ./setup.sh
+   60  zsh ./setup.sh
+   61  zsh ./setup.sh
+   62  zsh ./setup.sh
+   63  zsh ./setup.sh
+   64  zsh ./setup.sh
+   65  open setup.sh
+   66  open setup.sh
+   67  zsh ./setup.sh
+   68  zsh ./setup.sh
+   69  zsh ./setup.sh
+   70  zsh ./setup.sh
+   71  zsh ./setup.sh
+   72  zsh ./setup.sh
+   73  zsh ./setup.sh
+   74  nvm
+   75  nvm
+   76  zsh ./setup.sh
+   77  zsh ./setup.sh
+   78  brew
+   79  nvm
+   80  open setup.sh
+   81  nvm
+   82  ssh-keygen -t ed25519 -C "jesse@titan.com"
+   83  ssh-keygen -t ed25519 -C "jesse@titan.com"
+   84  pbcopy < ~/.ssh/id_ed25519.pub
+   85  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+   86  sudo installer -pkg AWSCLIV2.pkg -target /
+   87  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+   88  which aws
+   89  aws --version
+   90  brew install --cask aws-vault
+   91  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   92  cd Downloads
+   93  ls
+   94  zsh setup.sh 
+   95  mv setup.sh ../setup.sh
+   96  cd
+   97  ls
+   98  zsh setup.sh
+   99  brew
+  100  brew
+  101  eval $(/opt/homebrew/bin/brew shellenv)
+  102  brew
+  103  zsh setup.sh
+  104  zsh setup.sh
+  105  zsh setup.sh
+  106  zsh setup.sh
+  107  zsh setup.sh
+  108  nvm
+  109  source ~/.nvm/nvm.sh
+  110  nvm
+  111  node
+  112  curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+  113  bash install_nvm.sh
+  114  bash install_nvm.sh
+  115  bash install_nvm.sh
+  116  nvm
+  117  source ~/.nvm/nvm.sh
+  118  zsh setup.sh
+  119  nvm
+  120  zsh setup.sh
+  121  nvm
+  122  zsh setup.sh
+  123  zsh setup.sh
+  124  nvm use 16
+  125  zsh setup.sh
+  126  nvm install --lts
+  127  open  ~/.zshrc
+  128  zsh setup.sh
+  129  zsh setup.sh
+  130  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+  131  zsh setup.sh
+  132  zsh setup.sh
+  133  zsh setup.sh
+  134  zsh setup.sh
+  135  gh
+  136  brew install gh
+  137  brew
+  138  brew install gh
+  139  zsh setup.sh
+  140  zsh setup.sh
+  141  zsh setup.sh
+  142  zsh setup.sh
+  143  cd TitanInvest
+  144  git clone https://github.com/TitanInvest/titan-admin.git
+  145  zsh setup.sh
+  146  cd 
+  147  zsh setup.sh
+  148  zsh setup.sh
+  149  zsh setup.sh
+  150  zsh setup.sh
+  151  zsh setup.sh
+  152  zsh setup.sh
+  153  zsh setup.sh
+  154  zsh setup.sh
+  155  zsh setup.sh
+  156  zsh setup.sh
+  157  zsh setup.sh
+  158  zsh setup.sh
+  159  zsh setup.sh
+  160  zsh setup.sh
+  161  code
+  162  zsh setup.sh
+  163  code
+  164  code
+  165  zsh setup.sh
+  166  zsh setup.sh
+  167  zsh setup.sh
+  168  zsh setup.sh
+  169  zsh setup.sh
+  170  zsh setup.sh
+  171  code
+  172  cd TitanInvest
+  173  git clone https://github.com/TitanInvest/react-native-easy-markdown.git
+  174  npm i
+  175  git clone https://github.com/TitanInvest/social-watch.git
+  176  ls
+  177  git clone https://github.com/TitanInvest/simple-markdown.git
+  178  git clone https://github.com/TitanInvest/react-native-plaid-link.git
+  179  git clone https://github.com/TitanInvest/react-navigation-redux-helpers.git
+  180  git clone https://github.com/TitanInvest/titan-cli.git
+  181  git clone https://github.com/TitanInvest/react-native-collapsible.git
+  182  cd
+  183  zsh setup.sh
+  184  zsh setup.sh
+  185  zsh setup.sh
+  186  cat .npmrc
+  187  open .npmrc
+  188  cd
+  189  code
+  190  zsh setup.sh
+  191  open .npmrc
+  192  touch ~/.config/fish/functions/nvm.fish
+  193  open ~/.config/fish/functions/nvm.fish
+  194  vi ~/.config/fish/functions/nvm.fish
+  195  vi ~/.config/fish/functions/nvm_find_nvmrc.fish
+  196  vi ~/.config/fish/functions/load_nvm.fish
+  197  vi ~/.config/fish/config.fish
+  198  zsh setup.sh
+  199  titan-library
+  200  zsh setup.sh
+  201  ㅞㅡ ㅣㅐ햐ㅜ
+  202  npm login
+  203  npm login
+  204  zsh setup.sh
+  205  open .npmrc
+  206  npm i @titanvest/titan-library
+  207  cd TitanInvest
+  208  cd titan-admin
+  209  npm i
+  210  open ~/.zshrc
+  211  cd
+  212  git clone https://github.com/edc/bass.git
+  213  open .
+  214  cd bass
+  215  make install 
+  216  cd TitanInvest/titan-admin
+  217  npm i
+  218  npm login
+  219  npm login
+  220  echo NPM_TOKEN
+  221  echo ${NPM_TOKEN}
+  222  open ~/.npmrc
+  223  open ~/.npmrc
+  224  open ~/.zshrc
+  225  omf install bass
+  226  touch ~/.config
+  227  cd ~/.config
+  228  open .
+  229  cd
+  230  open .zshrc
+  231  ㅣㄴ -ㅁ
+  232  ls -a
+  233  cat .npmrc
+  234  vi .npmrc
+  235  zsh setup.sh
+  236  cd TitanInvest/titan-admin
+  237  npm i
+  238  npm i
+  239  npm i
+  240  npm i
+  241  cd TitanInvest
+  242  git clone https://github.com/TitanInvest/web-monorepo.git
+  243  zsh setup.sh
+  244  zsh setup.sh
+  245  open ~/.gitconfig
+  246  git s
+  247  git b
+  248  npm i
+  249  git b
+  250  git pull
+  251  git log
+  252  git co -b admin-dashboard
+  253  git co admin-dashboard
+  254  npm i
+  255  git config --global user.name "Jesse Lee"
+  256  git config --global user.email "jesse@titanvest.com"
+  257  cd TitanInvest
+  258  cd react-native-easy-markdown
+  259  npm i
+  260  npm i
+  261  cd TitanInvest/titan-api
+  262  npm i
+  263  cd TitanInvest
+  264  ls
+  265  cd titan-api
+  266  git b
+  267  git fetch
+  268  git b
+  269  git pull
+  270  git pull --rebase origin master
+  271  git pull
+  272  cd ..
+  273  ls
+  274  rm -rf titan-api
+  275  git clone https://github.com/TitanInvest/titan-api.git
+  276  cd
+  277  zsh setup.sh
+  278  zsh setup.sh
+  279  zsh setup.sh
+  280  zsh setup.sh
+  281  zsh setup.sh
+  282  zsh setup.sh
+  283  zsh setup.sh
+  284  git co https://github.com/TitanInvest/titan-site.git
+  285  git co https://github.com/TitanInvest/titan-site.git
+  286  cd -
+  287  cd
+  288  zsh setup.sh
+  289  zsh setup.sh
+  290  zsh setup.sh
+  291  git clone https://github.com/TitanInvest/interview-country-data.git
+  292  rm -rf https://github.com/TitanInvest/interview-country-data.git
+  293  rm -rf interview-country-data
+  294  rm -rf interview-country-data
+  295  zsh setup.sh
+  296  zsh setup.sh
+  297  zsh setup.sh
+  298  zsh setup.sh
+  299  zsh setup.sh
+  300  zsh setup.sh
+  301  zsh setup.sh
+  302  zsh setup.sh
+  303  zsh setup.sh
+  304  zsh setup.sh
+  305  zsh setup.sh
+  306  cd TitanInvest
+  307  rm -rf package-lock.json
+  308  zsh setup.sh
+  309  zsh setup.sh
+  310  cd TitanInvest/web-monorepo
+  311  npm i
+  312  npm i -force
+  313  npm i --force
+  314  yarn install
+  315  npm install --global yarn
+  316  yarn install
+  317  cd ..
+  318  git clone https://github.com/TitanInvest/titan-native.git
+  319  git clone https://github.com/TitanInvest/titan-site.git
+  320  git clone https://github.com/TitanInvest/titan-interview-markdown.git
+  321  git clone https://github.com/TitanInvest/interview-country-data.git
+  322  git clone https://github.com/TitanInvest/hiring.git
+  323  git clone https://github.com/TitanInvest/titan-marketing.git
+  324  git clone https://github.com/TitanInvest/research.git
+  325  git clone https://github.com/TitanInvest/titan-ui.git
+  326  git clone https://github.com/TitanInvest/micro-frontends-test.git
+  327  git clone https://github.com/TitanInvest/nextjs.git
+  328  git clone https://github.com/TitanInvest/bowser.git
+  329  git clone https://github.com/TitanInvest/titan-library.git
+  330  git clone https://github.com/TitanInvest/tpt-api.git
+  331  git clone https://github.com/TitanInvest/iexcloud_api_wrapper.git
+  332  cd
+  333  zsh setup.sh
+  334  zsh setup.sh
+  335  zsh setup.sh
+  336  npm i
+  337  git clone admin-dashboard
+  338  git b
+  339  git b
+  340  git branch admin-dashboard
+  341  git b
+  342  source ~/.gitconfig
+  343  git b
+  344  git br
+  345  open  ~/.gitconfig
+  346  source ~/.gitconfig
+  347  git b
+  348  git co admin-dashboard
+  349  npm i
+  350  npm i
+  351  git b
+  352  git log
+  353  git pull
+  354  git b
+  355  git branch --set-upstream-to=origin/main admin-dashboard
+  356  git branch --set-upstream-to=origin/master admin-dashboard
+  357  git pull
+  358  git b
+  359  git co master
+  360  git pull
+  361  git s
+  362  git b
+  363  git pull
+  364  git pull --ff-only
+  365  git pull
+  366  git config --global pull.ff only
+  367  git pull
+  368  git co admin-dashboard
+  369  npm i
+  370  git b
+  371  cd ../titan-api
+  372  git b
+  373  git pull
+  374  git pull
+  375  git co -b admin-dashboard
+  376  git b
+  377  git log
+  378  git b
+  379  git b
+  380  git co master
+  381  git d admin-dashboard
+  382  git b
+  383  git co admin-dashboard
+  384  npm i
+  385  git s
+  386  git s
+  387  git b
+  388  gut s
+  389  gut  
+  390  git b
+  391  git s
+  392  git s
+  393  git stash
+  394  npm t
+  395  git s
+  396  git 
+  397  git 
+  398  open
+  399  open ~/.gitignore
+  400  open ~/.gitconfig
+  401  yarn i
+  402  yarn install
+  403  git pull
+  404  cd TitanInvest/web-monorepo
+  405  npm install -g yarn
+  406  yarn -v
+  407  yarn install
+  408  yarn run marketing:develo
+  409  yarn run marketing:develop
+  410  open /usr/local/lib/node_modules
+  411  node
+  412  node
+  413  bob/user-attempt-signup-refactor
+  414  git s
+  415  git b
+  416  git co master
+  417  git pull
+  418  git s
+  419  git b
+  420  git co bob/user-attempt-signup-refactor
+  421  git s
+  422  git b
+  423  git pull
+  424  npm i
+  425  git s
+  426  git b
+  427  git s
+  428  git b
+  429  git co master
+  430  git pull
+  431  depcheck
+  432  npm i -g depcheck
+  433  depcheck
+  434  npm check mongodb
+  435  npm ls mongodb
+  436  git s
+  437  git b
+  438  git co -b jesse/dependency-check
+  439  git b
+  440  git s
+  441  ncu
+  442  npm i -g ncu
+  443  npm uninstall -f ncu
+  444  npm i -g npm-check-updates
+  445  ncu 
+  446  npm-check-updates
+  447  open ~/.npm
+  448  open ~/node_
+  449  ncu
+  450  npm uninstall ncu
+  451  ncu
+  452  npm uninstall ncu -g
+  453  ncu
+  454  npm i -g npm-check-updates
+  455  ncu
+  456  npm run start:dev:prod
+  457  npm run build
+  458  npm run start:dev:prod
+  459  npm run start:dev:prod
+  460  npm run start:dev:prod
+  461  npm run start:dev:prod
+  462  npm run start:dev:prod
+  463  npm run start:dev:prod
+  464  npm run start:dev:prod
+  465  npm run start:dev:prod
+  466  npm run start:dev:prod
+  467  npm run start:dev:prod
+  468  node index.js
+  469  node index.js
+  470  npm i
+  471  git s
+  472  git stash
+  473  git b
+  474  git del jesse/dependency-check
+  475  git brD jesse/dependency-check
+  476  git brd jesse/dependency-check
+  477  git br -d jesse/dependency-check
+  478  git br -D jesse/dependency-check
+  479  git b -D jesse/dependency-check
+  480  git co master
+  481  git b -D jesse/dependency-check
+  482  git pull
+  483  git b
+  484  git b
+  485  git pull
+  486  npm i
+  487  git b
+  488  npm run ben:prod
+  489  git s
+  490  git co syncSpeed
+  491  npm i
+  492  npm run ben:prod
+  493  git pull
+  494  git b
+  495  npm run ben:prod
+  496  npm run ben:prod
+  497  npm run ben:prod
+  498  npm run ben:prod
+  499  npm run ben:prod
+  500  npm run ben:prod
+  501  npm run ben:prod
+  502  npm i
+  503  npm run ben:prod
+  504  npm run ben:prod
+  505  npm run ben:prod
+  506  git pull
+  507  git b
+  508  npm run ben:prod
+  509  npm run ben:prod
+  510  npm run ben:prod
+  511  npm run ben:prod
+  512  npm run ben:prod
+  513  npm run ben:prod
+  514  npm run ben:prod
+  515  npm run ben:prod
+  516  npm run ben:prod
+  517  npm run ben:prod
+  518  npm run ben:prod
+  519  npm run ben:prod
+  520  npm run ben:prod
+  521  npm run ben:prod
+  522  npm run ben:prod
+  523  npm run ben:prod
+  524  npm run ben:prod
+  525  git b
+  526  git stash
+  527  git co master
+  528  git pull
+  529  npm i
+  530  git log
+  531  git pull
+  532  git co business-admin-support
+  533  npm i
+  534  git b
+  535  git co -b simplify-then-logic
+  536  git s
+  537  git b
+  538  git add -A
+  539  git commit -m "fix redundant then logic. simplify code."
+  540  git s
+  541  git b
+  542  git s
+  543  git b
+  544  git push
+  545  git pull --rebase origin master
+  546  git push -f
+  547  git reset --soft HEAD~1
+  548  git s
+  549  git stash
+  550  git co master
+  551  git pull
+  552  git b -D simplify-then-logic
+  553  git pull
+  554  git co -b simplify-then-logic
+  555  git stash apply
+  556  git add -A
+  557  git commit -m "fix redundant then logic. simplify code."
+  558  git s
+  559  git b
+  560  git push -f
+  561  git s
+  562  git b
+  563  git b
+  564  git co jeffrey/dont-return
+  565  npm i
+  566  open ~/.aws
+  567  ls
+  568  ls -a
+  569  touch ~/.aws/config
+  570  mkdir .aws
+  571  cd .aws
+  572  touch config
+  573  open config
+  574  git s
+  575  cd
+  576  ls
+  577  git clone https://github.com/gatsbyz/columbia_bootcamp.git
+  578  git s
+  579  git b
+  580  git s
+  581  cd columbia_bootcamp
+  582  ls
+  583  mkdir module2
+  584  open module2
+  585  git s
+  586  git b
+  587  git s
+  588  git co -b dependency-cleanup
+  589  git s
+  590  git b
+  591  git co master
+  592  git pull
+  593  npm i
+  594  git s
+  595  depcheck
+  596  git b
+  597  git co t4b/braze-business-creation
+  598  git s
+  599  npm i
+  600  node --version
+  601  git s
+  602  git b
+  603  git b
+  604  git co master
+  605  git pull
+  606  npm i
+  607  git pull
+  608  npm i
+  609  ncu
+  610  depcheck
+  611  git b
+  612  git s
+  613  git b -D simplify-then-logic
+  614  git s
+  615  git co -D dependency-cleanup
+  616  git b -D dependency-cleanup
+  617  git pull
+  618  git b
+  619  git co dependency-cleanup
+  620  git co -b dependency-cleanup
+  621  depcheck
+  622  npm i --save-dev @types/parse-domain
+  623  npm i
+  624  git b
+  625  depcheck
+  626  depcheck
+  627  햣 ㄴ
+  628  git s
+  629  git b
+  630  git add -A
+  631  git commit -m "upgrade parse-domain for type support"
+  632  git oush
+  633  git s
+  634  git add -A
+  635  git s
+  636  git commit -m "upgrade parse-domain for type support"
+  637  git s
+  638  npm t
+  639  npm i camelcase
+  640  npm t
+  641  git s
+  642  npm uninstall camelcase
+  643  git s
+  644  git diff
+  645  git s
+  646  npm i
+  647  git add -A
+  648  git add -A
+  649  npm t
+  650  ls
+  651  npm i
+  652  npm t
+  653  git s
+  654  git s
+  655  git b
+  656  git s
+  657  git b
+  658  git status
+  659  git s
+  660  git stash
+  661  git s
+  662  git pull
+  663  npm i
+  664  npm t
+  665  git stash apply
+  666  npm t
+  667  git diff package.json
+  668  npm i
+  669  npm t
+  670  npm i camelcase@4.1.0
+  671  npm t
+  672  git s
+  673  git diff src
+  674  git diff 
+  675  git diff package.json
+  676  m[, o
+  677  npm i
+  678  npm i
+  679  npm i
+  680  npm t
+  681  git stash
+  682  npm it
+  683  npm i  parse-domain
+  684  git s
+  685  npm it
+  686  git b
+  687  git s
+  688  git b
+  689  git s
+  690  git b
+  691  git add -A
+  692  git add -A
+  693  git commit -m "upgrade parse-domain for type support"
+  694  git push
+  695  git push
+  696  git co master
+  697  git pull
+  698  git co -b rebrand-crypto
+  699  git log
+  700  git b
+  701  git co master
+  702  git b -D rebrand-crypto
+  703  git b
+  704  npm run marketing:develop
+  705  git pull
+  706  npm i marketing:develop
+  707  npm i
+  708  yarn install
+  709  npm run marketing:develop
+  710  git s
+  711  git b
+  712  git s
+  713  git b
+  714  git co -b crypto-rebrand
+  715  git s
+  716  git b
+  717  git add -A
+  718  git b
+  719  open ~/.gitignore
+  720  git s
+  721  git reset
+  722  git s
+  723  git config --global core.excludesfile ~/.gitignore
+  724  git s
+  725  git b
+  726  open ~/.gitconfig
+  727  source ~/.gitconfig
+  728  git s
+  729  git s
+  730  git b
+  731  git s
+  732  git add -A
+  733  git s
+  734  git s
+  735  git s
+  736  git reset
+  737  git s
+  738  git s
+  739  git s
+  740  git s
+  741  git b
+  742  git add -A
+  743  git commit -m "add rebrand flow with flag"
+  744  git push
+  745  git commit -m "add rebrand flow with flag"
+  746  git s
+  747  git s
+  748  git b
+  749  git stash
+  750  yarn install
+  751  git b
+  752  git pull --rebase origin master
+  753  eslint
+  754  git commit 
+  755  it s
+  756  git b
+  757  git stash apply
+  758  git s
+  759  git commit -am "create rebrand flow for crypto"
+  760  git psuh
+  761  git psuh
+  762  git commit -am "create rebrand flow for crypto"
+  763  git commit -am "create rebrand flow for crypto"
+  764  git s
+  765  git add -A
+  766  git s
+  767  git s
+  768  git b
+  769  git s
+  770  git add -A
+  771  npm run marketing:develop
+  772  git s
+  773  git add -A
+  774  git s
+  775  git add -A
+  776  git commit -m "put some components into match figma"
+  777  git push
+  778  git s
+  779  npm run marketing:develop<TitanHeader.H5>{props.name}</TitanHeader.H5>TitleItemTitleItem
+  780  git s
+  781  git b
+  782  git add -A
+  783  git commit -m "add main panel"
+  784  git push
+  785  git s
+  786  git b
+  787  git add -A
+  788  git commit -m "text page - might created reusable block for this text component"
+  789  git push
+  790  햣 ㄴ
+  791  git s
+  792  git add -A
+  793  git commit -m "add hero"
+  794  git psuh
+  795  git push
+  796  git pull --rebase origin master
+  797  git s
+  798  git add -A
+  799  git commit -m "change home back"
+  800  git pull --rebase origin master
+  801  git add -A
+  802  git rebase --continue
+  803  git add -A
+  804  git rebase --continue
+  805  git push -f
+  806  git s
+  807  git add -A
+  808  git reset --soft HEAD~6
+  809  git s
+  810  git add -A
+  811  git commit -m "create rebrand flow for crypto"
+  812  git s
+  813  git b
+  814  git commit -m "create rebrand flow for crypto"
+  815  eslint --cache --fix
+  816  git commit -am "create rebrand flow for crypto"
+  817  git push -f
+  818  git s
+  819  git s
+  820  git b
+  821  npm run prettier:fix
+  822  npm run prettier
+  823  npm run prettier
+  824  npm run prettier
+  825  npm run prettier
+  826  prettier --write HeroForm
+  827  npm run prettier
+  828  npm run prettier
+  829  npm run prettier
+  830  npm run prettier
+  831  git s
+  832  git b
+  833  git add -A
+  834  git commit -m "fix grid"
+  835  git push
+  836  git commit -am "fix grid"; git push
+  837  git s
+  838  git b
+  839  git push
+  840  npm run prettier:fix
+  841  npm prettier:fix
+  842  npm run prettier:fix
+  843  npm run prettier
+  844  npm run prettier
+  845  npm run prettier
+  846  npm run prettier
+  847  npm run prettier
+  848  npm run prettier
+  849  npm run prettier
+  850  git s
+  851  git add -A
+  852  git commit -m "crypto image fixed on screen for main page"
+  853  git push
+  854  npm run prettier
+  855  npm run prettier
+  856  npm run prettier
+  857  npm run prettier
+  858  npm run prettier
+  859  npm run prettier
+  860  npm run prettier
+  861  npm run prettier
+  862  npm run prettier
+  863  npm run prettier
+  864  npm run prettier
+  865  npm run prettier
+  866  git s
+  867  git add -A
+  868  git commit -m "add rebrand components "
+  869  git push
+  870  git push
+  871  git commit -m "add rebrand components "
+  872  git s
+  873  npm run prettier
+  874  git commit -nm "add rebrand components "
+  875  git s
+  876  git s
+  877  npm run prettier
+  878  햣 ㄴ
+  879  git s
+  880  git b
+  881  git add -A
+  882  git commit -amn "add rebrand components"
+  883  git commit -mn "add rebrand components"
+  884  git commit -n "add rebrand components"
+  885  git s
+  886  git commit -nm "add rebrand components"
+  887  git s
+  888  git push
+  889  gut b
+  890  git s
+  891  git b
+  892  git s
+  893  git pull --rebase origin master
+  894  npm run prettier
+  895  npm run prettier
+  896  git s
+  897  git add -A
+  898  rm -rf /Users/jesselee/TitanInvest/web-monorepo/.git/index.lock
+  899  git s
+  900  git b
+  901  git add -A
+  902  git log
+  903  git s
+  904  git s
+  905  git stash applt
+  906  git stash apply
+  907  git s
+  908  git b
+  909  git diff apps
+  910  git s
+  911  git b
+  912  git add -A
+  913  git s
+  914  git b
+  915  git add -A
+  916  git commit -am "create rebrand flow for crypto"
+  917  git s
+  918  git b
+  919  git stash
+  920  yarn i
+  921  yarn install
+  922  git b
+  923  git pull --rebase origin master
+  924  git b
+  925  git a
+  926  git s
+  927  git b
+  928  git pull
+  929  git pull --rebase origin master
+  930  git z
+  931  git a
+  932  git s
+  933  git b
+  934  git stash apply
+  935  git s
+  936  git b
+  937  git add -A
+  938  git agit a
+  939  git s
+  940  git add -A
+  941  git commit -am "create rebrand flow for crypto"
+  942  git commit -am "create rebrand flow for crypto"
+  943  git commit -am "create rebrand flow for crypto"
+  944  rm -rf /Users/jesselee/TitanInvest/web-monorepo/.git/index.lock
+  945  git commit -am "create rebrand flow for crypto"
+  946  yarn tsc
+  947  git s
+  948  git add -A
+  949  git s
+  950  git stash apply
+  951  git add -A
+  952  git s
+  953  git commit -am "create rebrand flow for crypto"
+  954  git s
+  955  git push
+  956  yarn install
+  957  npm run marketing:develop
+  958  npm run marketing:develop
+  959  npm run marketing:develop
+  960  npm run marketing:develop
+  961  npm run marketing:develop
+  962  npm run marketing:develop
+  963  npm run marketing:develop
+  964  npm run marketing:develop
+  965  npm run marketing:develop
+  966  npm run marketing:develop
+  967  npm run marketing:develop
+  968  npm run marketing:develop
+  969  npm run marketing:develop
+  970  npm run marketing:develop
+  971  npm run marketing:develop
+  972  npm run marketing:develop
+  973  npm run marketing:develop
+  974  npm run marketing:develop
+  975  npm run marketing:develop
+  976  npm run marketing:develop
+  977  npm run marketing:develop
+  978  npm run marketing:develop
+  979  npm run marketing:develop
+  980  npm run marketing:develop
+  981  npm run marketing:develop
+  982  npm run marketing:develop
+  983  npm run marketing:develop
+  984  npm run marketing:develop
+  985  npm run marketing:develop
+  986  npm run marketing:develop
+  987  npm run marketing:develop
+  988  npm run marketing:develop
+  989  npm run marketing:develop
+  990  npm run marketing:develop
+  991  npm run marketing:develop
+  992  npm run marketing:develop
+  993  npm run marketing:develop
+  994  npm run marketing:develop
+  995  npm run marketing:develop
+  996  npm run marketing:develop
+  997  npm run marketing:develop
+  998  npm run marketing:develop
+  999  npm run marketing:develop
+ 1000  npm run marketing:develop
+ 1001  npm run marketing:develop
+ 1002  npm run marketing:develop
+ 1003  npm run marketing:develop
+ 1004  npm run marketing:develop
+ 1005  npm run marketing:develop
+ 1006  npm run marketing:develop
+ 1007  npm run marketing:develop
+ 1008  npm run marketing:develop
+ 1009  npm run marketing:develop
+ 1010  npm run marketing:develop
+ 1011  npm run marketing:develop
+ 1012  npm run marketing:develop
+ 1013  npm run marketing:develop
+ 1014  npm run marketing:develop
+ 1015  npm run marketing:develop
+ 1016  npm run marketing:develop
+ 1017  npm run marketing:develop
+ 1018  npm run marketing:develop
+ 1019  npm run marketing:develop
+ 1020  npm run marketing:develop
+ 1021  npm run marketing:develop
+ 1022  npm run marketing:develop
+ 1023  npm run marketing:develop
+ 1024  npm run marketing:develop
+ 1025  npm run marketing:develop
+ 1026  npm run marketing:develop
+ 1027  npm run marketing:develop
+ 1028  npm run marketing:develop
+ 1029  npm run marketing:develop
+ 1030  npm run marketing:develop
+ 1031  npm run marketing:develop
+ 1032  npm run marketing:develop
+ 1033  npm run marketing:develop
+ 1034  npm run marketing:develop
+ 1035  npm run marketing:develop
+ 1036  npm run marketing:develop
+ 1037  npm run marketing:develop
+ 1038  npm run marketing:develop
+ 1039  npm run marketing:develop
+ 1040  npm run marketing:develop
+ 1041  npm run marketing:develop
+ 1042  npm run marketing:develop
+ 1043  npm run marketing:develop
+ 1044  npm run marketing:develop
+ 1045  npm run marketing:develop
+ 1046  npm run marketing:develop
+ 1047  npm run marketing:develop
+ 1048  npm run marketing:develop
+ 1049  npm run marketing:develop
+ 1050  npm run marketing:develop
+ 1051  npm run marketing:develop
+ 1052  npm run marketing:develop
+ 1053  npm run marketing:develop
+ 1054  npm run marketing:develop
+ 1055  npm run marketing:develop
+ 1056  npm run marketing:develop
+ 1057  npm run marketing:develop
+ 1058  npm run marketing:develop
+ 1059  npm run marketing:develop
+ 1060  npm run marketing:develop
+ 1061  npm run marketing:develop
+ 1062  npm run marketing:develop
+ 1063  npm run marketing:develop
+ 1064  npm run marketing:develop
+ 1065  npm run marketing:develop
+ 1066  npm run marketing:develop
+ 1067  npm run marketing:develop
+ 1068  npm run marketing:develop
+ 1069  npm run marketing:develop
+ 1070  npm run marketing:develop
+ 1071  npm run marketing:develop
+ 1072  npm run marketing:develop
+ 1073  npm run marketing:develop
+ 1074  npm run marketing:develop
+ 1075  npm run marketing:develop
+ 1076  npm run marketing:develop
+ 1077  npm run marketing:develop
+ 1078  npm run marketing:develop
+ 1079  npm run marketing:develop
+ 1080  npm run marketing:develop
+ 1081  npm run marketing:develop
+ 1082  npm run marketing:develop
+ 1083  npm run marketing:develop
+ 1084  npm run marketing:develop
+ 1085  npm run marketing:develop
+ 1086  npm run marketing:develop
+ 1087  npm run marketing:develop
+ 1088  npm run marketing:develop
+ 1089  npm run marketing:develop
+ 1090  npm run marketing:develop
+ 1091  npm run marketing:develop
+ 1092  npm run marketing:develop
+ 1093  npm run marketing:develop
+ 1094  npm run marketing:develop
+ 1095  npm run marketing:develop
+ 1096  npm run marketing:develop
+ 1097  npm run marketing:develop
+ 1098  npm run marketing:develop
+ 1099  npm run marketing:develop
+ 1100  npm run start:dev:local
+ 1101   /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 58002 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py 
+ 1102  npm run marketing:develop cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 51641 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/qualifier/utils/fileio.py 
+ 1103   cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 51746 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py 
+ 1104  npm run marketing:develop cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 51641 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/qualifier/utils/fileio.py  cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 52008 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py 
+ 1105  git s
+ 1106  git b
+ 1107  git add -A
+ 1108  git commit -m "complete todo in save_qualifying_loans"
+ 1109  git push
+ 1110  git add -A cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 55815 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py 
+ 1111   cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 55902 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py 
+ 1112   cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 55902 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py  cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 56162 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py 
+ 1113   cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 55902 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py  cd /Users/jesselee/columbia_bootcamp ; /usr/bin/env /usr/bin/python3 /Users/jesselee/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 56337 -- /Users/jesselee/columbia_bootcamp/module2/loan_qualifier_app/app.py 
+ 1114  git s
+ 1115  git rm README.md 
+ 1116  git s
+ 1117  git b
+ 1118  git commit -m "update .gitignore and implement new features"
+ 1119  git push
